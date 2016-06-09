@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    background-color: #DCDCDC ;                                 <!--#DCDCDC-->
+    font-family:"思源黑体","微软雅黑","黑体","Arial";
+    text-align:center;
+}
+
+.div-main-container-background{
+    display: block;
+    position: absolute;
+    height:455.5px;
+    width:258px;
+    background-color: #DCDCDC;
+    left:35%;
+    top:4%;
+    padding:0.5px;
+}
+
+.div-main-container{
+    display: block;
+    min-height:456px;
+    width:254px;
+}
+
+.div-screen{
+    background-color:#e3e7ea;                               <!--  -->
+    display:block;
+    height:165px;
+    width:257px;
+    margin:0.5px;
+    margin-top:0;
+    text-align: right;
+    font-size:40px;
+    font-weight:800;
+
+}   
+
+.div-screen-result-1{
+    display:block;
+    position: absolute;
+    height:40px;
+    width:240px;
+    text-align: right;
+    font-size:35px; 
+    background-color: ;
+    top:115px;
+    left:7px;
+    padding:2px;
+    opacity:0.5;
+    word-break:break-all;
+}
+
+.div-screen-result-2{                                               <!--测试-->
+    display:block;
+    position: absolute;
+    height:40px;
+    width:235;
+    text-align: left;
+    font-size:14px; 
+    background-color: ;
+    top:8px;
+    left:12px;
+    padding:2px;
+    opacity:0.5;
+    word-break:break-all;
+}
+
+
+.div-screen-result-3{                                               <!--测试-->
+    display:block;
+    position: absolute;
+    height:40px;
+    width:240;
+    text-align: right;
+    font-size:20px; 
+    background-color: red;
+    top:65px;
+    left:-250px;
+    padding:2px;
+    opacity:0.5;
+}
+
+.div-screen-result-4{                                               <!--测试-->
+    display:block;
+    position: absolute;
+    height:40px;
+    width:240;
+    text-align: right;
+    font-size:15px; 
+    background-color: darkgoldenrod;
+    top:45px;
+    left:270px;
+    padding:2px;
+    opacity:0.5;
+}
+
+.div-screen-result-5{                                               <!--测试-->
+    display:block;
+    position: absolute;
+    height:20px;
+    width:240;
+    text-align: right;
+    font-size:14.5px; 
+    background-color: darkmagenta;
+    top:25px;
+    left:-250px;
+    padding:2px;
+    opacity:0.5;
+}
+
+.div-button-container{
+    display:block;
+    background-color: #e7e8ea;
+    height:289.5px;
+    width:257px;
+    padding:0px;
+    margin:0.5px;
+}
+
+.div-button-container-left{
+    display:inline-block;
+    float:left;
+    height:290.5px;
+    width:192px;
+    margin:0.5px;
+    margin-left:0;
+    margin-right:0;
+    padding:0px;
+    background-color:;
+}
+
+.div-button-container-right{
+    display:inline-block;
+    float:left;
+    height:290.5px;
+    width:64.5px;
+    margin:0.5px;
+    margin-left:0;
+    padding:0px;
+    background-color:;
+}
+
+.div-button-1-1{
+    display:inline-block;
+    float:left;
+    background-color: #f7f8fa;
+    line-height:310%;
+    font-size:20px;
+    font-weight: 600;
+    color:#98999b;
+    text-align: center;
+    height:56px;
+    width:62px;
+    margin:1px;
+    padding:0px;
+}
+
+.div-button-1-1:hover{
+    background-color:#ececec;
+}
+.div-button-1-1:active{
+    background-color:#dddddd;
+}
+
+#button-multiplicative{ font-size : 18px ;  line-height : 335%;  width : 63px ; }
+#button-clean{ font-size : 26px ;  line-height : 220%; color : #fc6211; }
+#button-minus{ width:63px ; font-size : 28px ; line-height : 230%;}
+#button-add{ width:63px ; font-size : 28px ; line-height : 225%;}
+#button-equal{ width:63px ; }
+
+
+
+
+
+.div-button-1-2{
+    display:inline-block;
+    float:left; 
+    background-color: #fafbfd;
+    line-height:310%;
+    font-size:20px;
+    font-weight: 600;
+    color:#98999b;
+    text-align: center;
+    height:56px;
+    width:62px;
+    margin:1px;
+    padding:0px;
+}
+
+.div-button-1-2:hover{
+    background-color:#ececec;
+}
+.div-button-1-2:active{
+    background-color:#dddddd;
+}
+
+
+.div-button-2{
+    display:inline-block;
+    float:left;
+    background-color: #fafbfd;
+    line-height:310%;
+    font-size:20px;
+    font-weight: 600;
+    color:#98999b;
+    text-align: center;
+    height:56px;
+    width:126px;
+    margin:1px;
+    padding:0px;
+}
+
+.div-button-2:hover{
+    background-color:#ececec;
+}
+.div-button-2:active{
+    background-color:#dddddd;
+}
+
+.div-button-3{
+    display:inline-block;
+    float:left;
+    line-height:415%;
+    font-size:27px;
+    text-align: center;
+    color:#fff;
+    background-color: #fc6211;
+    height:114px;
+    width:62px;
+    margin:1px;
+    padding:0px;
+}
+.div-button-3:hover{
+    background-color:#ea5d12;
+}
+.div-button-3:active{
+    background-color:#d55512;
+}
+

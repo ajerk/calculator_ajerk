@@ -1,0 +1,229 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>计算器</title>
+      <script src="js/jquery-2.2.4.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="div-main-container-background">
+        <div class="div-main-container">
+          <div class="div-screen" >
+              <div class="div-screen-result-1" id="screen_1"></div>
+              
+              
+              
+          </div> 
+
+
+    <!--屏幕初始化-->       
+          <script>
+                $(document).ready(function(){
+                    screenshow(screen_result);
+                });
+          </script>     
+
+          <div class="div-button-container">
+              <div class="div-button-container-left">
+                    <div id="button-clean" class="div-button-1-1">          c          </div>
+                        <script>
+                            $(document).ready(function(){
+                                $("#button-clean").click(function(){
+                                clean(); 
+                                });
+                            });                   
+                        </script>
+
+
+                    <div id="button-backspace" class="div-button-1-1">          ←          </div>
+                        <script>
+                            $(document).ready(function(){
+                                $("#button-backspace").click(function(){                        
+                                back();
+                                });    
+                            });
+                        </script>  
+
+
+                    <div id="button-division" class="div-button-1-1">          ÷          </div>
+                        <script>
+                           $(document).ready(function(){
+                              $("#button-division").click(function(){                        
+                                operation_("÷");
+                              });    
+                           });
+                        </script>
+
+
+            
+                    <div id="button-7" class="div-button-1-2">          7          </div>
+                        <script>
+                            $(document).ready(function(){
+                               $("#button-7").click(function(){
+                                   number(7);     
+                               });
+                            });  
+                        </script>
+
+
+                    <div id="button-8" class="div-button-1-2">          8          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-8").click(function(){
+                               number(8);     
+                           });
+                        });  
+                      </script>
+
+                  
+                    <div id="button-9" class="div-button-1-2">          9          </div>   
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-9").click(function(){
+                               number(9);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-4" class="div-button-1-2">          4          </div> 
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-4").click(function(){
+                               number(4);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-5" class="div-button-1-2">          5          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-5").click(function(){
+                               number(5);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-6" class="div-button-1-2">          6          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-6").click(function(){
+                               number(6);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-1" class="div-button-1-2">          1          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-1").click(function(){
+                               number(1);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-2" class="div-button-1-2">          2          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-2").click(function(){
+                               number(2);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-3" class="div-button-1-2">          3          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-3").click(function(){
+                               number(3);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-0" class="div-button-2">          0          </div>
+                      <script>
+                        $(document).ready(function(){
+                           $("#button-0").click(function(){
+                               number(0);     
+                           });
+                        });  
+                      </script>
+
+
+                    <div id="button-point" class="div-button-1-2">          .          </div>
+                        <script>
+                            $(document).ready(function(){
+                               $("#button-point").click(function(){ 
+                                  point();
+                               });
+                            });
+                        </script>
+
+
+
+
+              
+              </div>
+              
+              <div class="div-button-container-right">
+                    <div id="button-multiplicative" class="div-button-1-1"  font-size : 18px; >          ×          </div>
+
+                        <script> 
+                           $(document).ready(function(){
+                              $("#button-multiplicative").click(function(){                        
+                                operation_("×");
+                              });    
+                           });
+                        </script>    
+
+
+                    <div id="button-minus" class="div-button-1-1">          -          </div>
+                        <script>
+                           $(document).ready(function(){
+                              $("#button-minus").click(function(){                        
+                                operation_("-");
+                              });    
+                           });
+                        </script>
+
+
+
+                    <div id="button-add" class="div-button-1-1">          +          </div>
+                        <script>
+                           $(document).ready(function(){
+                              $("#button-add").click(function(){                       
+                                operation_("+");
+                              });    
+                           });
+                        </script>
+
+                    <div id="button-equal" class="div-button-3">          =          </div>
+                      <script>
+                        $(document).ready(function(){
+                              $("#button-equal").click(function(){
+                                equal();
+                              });
+                        });
+                      </script>
+
+
+              </div>
+              
+
+
+
+
+          </div>
+
+
+        </div>
+    </div> 
+  </body>
+</html>
